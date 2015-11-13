@@ -7,9 +7,9 @@ c:
     OUTBOX  
 d:
     INBOX   
+    JUMPZ    a
     COPYTO   0
     JUMPN    f
-    JUMPZ    a
 e:
     OUTBOX  
     BUMPDN   0
@@ -19,7 +19,7 @@ f:
 g:
     OUTBOX  
     BUMPUP   0
+    JUMPN    g
     JUMPZ    c
-    JUMP     g
 
 
