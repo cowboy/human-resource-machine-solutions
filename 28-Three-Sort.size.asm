@@ -7,41 +7,38 @@ a:
     COPYTO   1
     INBOX   
     COPYTO   2
-    SUB      1
-    JUMPN    c
-    COMMENT  0
+    COPYFROM 1
 b:
+    SUB      2
+    JUMPN    c
     COPYFROM 2
-    COPYTO   3
+    COPYTO   5
     COPYFROM 1
     COPYTO   2
-    COPYFROM 3
+    COPYFROM 5
     COPYTO   1
-    COMMENT  3
 c:
-    COPYFROM 1
-    SUB      0
-    JUMPN    d
-    COMMENT  1
-    COPYFROM 1
-    COPYTO   3
     COPYFROM 0
-    COPYTO   1
-    COPYFROM 3
-    COPYTO   0
-    COMMENT  2
-d:
+    SUB      1
+    JUMPN    e
+    JUMPZ    d
+    COPYFROM 0
+    COPYTO   5
     COPYFROM 1
-    SUB      2
-    JUMPN    b
-    COMMENT  4
+    COPYTO   0
+    COPYFROM 5
+    COPYTO   1
+    JUMP     b
+d:
+e:
+    COPYFROM 0
+    OUTBOX  
+    COPYFROM 1
+    OUTBOX  
     COPYFROM 2
     OUTBOX  
-    COPYFROM 1
-    OUTBOX  
-    COPYFROM 0
-    OUTBOX  
     JUMP     a
+
 
 
 DEFINE COMMENT 0
