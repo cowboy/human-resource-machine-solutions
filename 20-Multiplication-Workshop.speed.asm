@@ -32,39 +32,53 @@ c:
     SUB      7
     JUMPZ    j
     JUMPN    d
-    SUB      8
-    JUMP     i
+    COPYFROM 0
+    ADD      0
+    ADD      0
+    ADD      0
+    ADD      0
+    ADD      0
+    ADD      0
+    OUTBOX  
+    JUMP     a
 d:
     COPYFROM 9
-    JUMP     k
+    ADD      0
+    ADD      0
+    ADD      0
+    ADD      0
+    ADD      0
+    OUTBOX  
+    JUMP     a
 e:
     COPYFROM 4
     SUB      7
     JUMPZ    n
     JUMPN    f
-    SUB      8
-    JUMP     m
+    COPYFROM 0
+    ADD      0
+    ADD      0
+    OUTBOX  
+    JUMP     a
 f:
     COPYFROM 9
-    JUMP     o
+    ADD      0
+    OUTBOX  
+    JUMP     a
     COMMENT  2
 g:
     ADD      0
 h:
     ADD      0
-i:
     ADD      0
 j:
     ADD      0
-k:
     ADD      0
 l:
     ADD      0
-m:
     ADD      0
 n:
     ADD      0
-o:
     ADD      0
 p:
     OUTBOX  
@@ -73,6 +87,9 @@ q:
     OUTBOX  
     INBOX   
     JUMP     b
+
+
+
 
 
 DEFINE COMMENT 0
