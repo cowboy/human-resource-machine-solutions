@@ -12,84 +12,99 @@
     COPYTO   5
 a:
 b:
+c:
+d:
+e:
+f:
+g:
+h:
+i:
     COMMENT  1
     INBOX   
-    JUMPZ    q
+    JUMPZ    s
     COPYTO   0
     INBOX   
-    JUMPZ    p
+    JUMPZ    r
     COPYTO   4
     SUB      5
-    JUMPN    c
-    JUMPZ    h
-    COPYFROM 9
-    JUMP     g
-c:
+    JUMPN    j
+    JUMPZ    n
+    COPYFROM 0
+    ADD      0
+    ADD      0
+    COPYTO   1
+    ADD      1
+    ADD      1
+    OUTBOX  
+    JUMP     a
+j:
     COPYFROM 4
     SUB      6
-    JUMPZ    l
-    JUMPN    e
+    JUMPZ    p
+    JUMPN    l
     SUB      7
-    JUMPZ    j
-    JUMPN    d
+    JUMPN    k
+    JUMPZ    o
+    COPYFROM 0
+    ADD      0
+    ADD      0
+    COPYTO   1
+    ADD      1
+    ADD      0
+    OUTBOX  
+    JUMP     h
+k:
     COPYFROM 0
     ADD      0
     ADD      0
     ADD      0
     ADD      0
-    ADD      0
-    ADD      0
     OUTBOX  
-    JUMP     a
-d:
-    COPYFROM 9
-    ADD      0
-    ADD      0
-    ADD      0
-    ADD      0
-    ADD      0
-    OUTBOX  
-    JUMP     a
-e:
+    JUMP     g
+l:
     COPYFROM 4
     SUB      7
-    JUMPZ    n
-    JUMPN    f
+    JUMPN    m
+    JUMPZ    q
     COPYFROM 0
     ADD      0
     ADD      0
     OUTBOX  
-    JUMP     a
-f:
-    COPYFROM 9
-    ADD      0
+    JUMP     f
+m:
+    COPYFROM 0
     OUTBOX  
-    JUMP     a
-    COMMENT  2
-g:
-    ADD      0
-h:
-    ADD      0
-    ADD      0
-j:
-    ADD      0
-    ADD      0
-l:
-    ADD      0
-    ADD      0
+    JUMP     e
 n:
+    COPYFROM 0
     ADD      0
-    ADD      0
-p:
+    COPYTO   1
+    ADD      1
+    ADD      1
+    ADD      1
     OUTBOX  
-    JUMP     a
+    JUMP     b
+o:
+    COPYFROM 0
+    ADD      0
+    COPYTO   1
+    ADD      1
+    ADD      1
+    OUTBOX  
+    JUMP     d
+p:
+    ADD      0
+    ADD      0
 q:
+    ADD      0
+    ADD      0
+r:
+    OUTBOX  
+    JUMP     c
+s:
     OUTBOX  
     INBOX   
-    JUMP     b
-
-
-
+    JUMP     i
 
 
 DEFINE COMMENT 0
@@ -107,14 +122,6 @@ m1XrfW/jdt8N+9YHmB9WDak6Khu+84hUxJaDUhGZO0HqBF1OlqwP4CgBsT+l9VfMKGDI6y79k/Wnam+2
 ZQ1D3vr6kJq1DUvaXzbWzXrZuGb30mbeyyC1W2tPLppcFLIqskByXWJu7p7EXIZT4oUnLwgW+1zKbjwH
 VuPav/PIkf57G0/2Ws/o6nUuAIk1Tfg8qWiaYNXj2dZZsvNK004v+Z4OElfZnKm/aLNef/S2a6sFd/05
 dmZ327lTezguHNnnfj7jZOH++DNq20Hqfq2a33J+160GhlEwCoYgAAB3QJVH;
-
-DEFINE COMMENT 2
-eJwLYWBgENc66TZbY3qAuVxT/kGp6XW+YueW8orp7QVKMTzkmx0cJfg+cYqwddZBqZCaF8q5fTYm55bu
-ML204ovZrXUgNXVJ0wMOJM4Pc0q0zjqccG8jSKzU75r/pzRBH/HCSz4gfm2Ve/GX2j9ZhvXWWW8arLMW
-tbAUSnR0LZboEF0Nkn/SrNdfUfNnxtFy7yUdZddWe5bdWne0fPb6Nw2z14PkmSewODNP8F7SNGH6GhC/
-fEpb0YdpdTkvZu7MiJ/7Pf32POssoUVdpfyLJ1efXSzbfHZxZjf/4tIp4gvcF8rPDVieNXP6GqNpt9bZ
-TpIEu9lk7Wez4rWfJ+mvh/An7dTqcdv3vPPNcbVOhTP3mrVPnCwxO1KX43CgKrN1358sj711OZd2nisX
-2XmrQWSn87xJOwVXTNh1ax3n3sTNzvsfb5lyYcnW/kvzNzGMglEwxAAAfMiWZQ;
 
 DEFINE LABEL 0
 eJwTZmBgiIrgvewVd2udfVLhxLcZt4K0slicX2Sp6cblVfLeyncX5yy7F8pYaZ1lWRNQqdB6bfWZnoOn
