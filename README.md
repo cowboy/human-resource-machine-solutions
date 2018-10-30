@@ -29,7 +29,7 @@ To import one of these solutions into the game:
 | Level | Name | Size/Par | Speed/Par |
 | ----: | ---- | -------- | --------- |
 | 1 | [Mail Room](01-Mail-Room.size.speed.asm) | 6/6 | 6/6 |
-| 2 | Busy Mail Room | [3/3](02-Busy-Mail-Room.size.asm) | [20/25](02-Busy-Mail-Room.speed.asm) by [@peterfreese](https://github.com/peterfreese) |
+| 2 | Busy Mail Room | [3/3](02-Busy-Mail-Room.size.asm) | [13/21](02-Busy-Mail-Room.speed.asm) by [@j3r3mias](https://github.com/j3r3mias) |
 | 3 | [Copy Floor](03-Copy-Floor.size.speed.asm) | 6/6 | 6/6 |
 | 4 | [Scrambler Handler](04-Scrambler-Handler.size.speed.asm) | 7/7 | 21/21 |
 | _5_ | _Coffee Time_ | &ndash; | &ndash; |
@@ -96,3 +96,4 @@ To import one of these solutions into the game:
 * [@nanashi-juanto](https://github.com/nanashi-juanto)
 * [@FireGoblin](https://github.com/FireGoblin) (Michael Overstreet)
 * [@AlanDeSmet](https://github.com/AlanDeSmet) (Alan De Smet)
+* [@j3r3mias](https://github.com/j3r3mias) (Jeremias Gomes)
