@@ -3,8 +3,6 @@
     INBOX   
     JUMPZ    b
     INBOX   
-    JUMPZ    a
-a:
 b:
 c:
 d:
